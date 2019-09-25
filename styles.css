@@ -1,0 +1,53 @@
+    body {
+        background-image: url(images/bg-pattern-desktop.svg);
+        font-family: 'Be Vietnam', sans-serif;
+    }
+    
+    .jumbotron {
+        border: 2px solid rgba(252, 180, 240, 0.575);
+    }
+    
+    .btn,
+    .btn-success {
+        background-color: rgb(240, 195, 240);
+        color: black;
+        box-shadow:
+    }
+    
+    .btn-success:hover,
+    .btn-success:hover:active,
+    .btn-success:visited,
+    .btn-success:focus {
+        background-color: rgb(240, 195, 240);
+        color: black;
+        border-color: rgb(240, 195, 240);
+    }
+    
+    #header {
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    
+    .intro {
+        margin-left: 100px;
+        margin-bottom: 40px;
+    }
+    
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .image {
+        margin-left: 100px;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
